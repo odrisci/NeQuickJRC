@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{f038dc4b-8de0-4ca3-aaa8-b5755c04d626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{d1c8b455-7d40-4e68-902f-8d5bfe0a6064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib\UT">
+      <UniqueIdentifier>{6d6ef399-270b-467e-9892-c9b8d7f77ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\UT">
+      <UniqueIdentifier>{83ad98d0-7a45-444d-905a-02ae4403b0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib\UT\private">
+      <UniqueIdentifier>{98b604aa-8380-4694-895b-5cc648df4df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib\UT\public">
+      <UniqueIdentifier>{bfd0dc8e-8469-4712-a306-26945bfa5ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib\public">
+      <UniqueIdentifier>{1458f986-0208-4915-b0ae-67ae558d979b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib\private">
+      <UniqueIdentifier>{b8503095-9ef6-45e2-8e32-44d1e2095c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\CCIR">
+      <UniqueIdentifier>{903cef4e-03fb-4bc2-bdcc-b1a699b8cc4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\NeQuickG_JRC_input_data_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\NeQuickG_JRC_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\NeQuickG_JRC_input_data_std_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_API_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_Az_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_iono_E_layer_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_iono_F1_layer_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_iono_F2_layer_fourier_coefficients_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_iono_F2_layer_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_iono_layer_amplitudes_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_iono_layer_thickness_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_MODIP_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_ray_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_solar_test.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\ITU_R_P_371_8.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_coordinates.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_electron_density.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_Gauss_Kronrod_integration.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_geometry.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_input_data.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_interpolate.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_iono_E_layer.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_iono_F1_layer.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_iono_F2_layer.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_iono_F2_layer_fourier_coefficients.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_iono_profile.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_math_utils.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_MODIP.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_MODIP_grid.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_ray.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_ray_slant.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_ray_vertical.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_solar.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_solar_activity.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_TEC_integration.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\NeQuickG_JRC_time.c">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\UT\NeQuickG_JRC_UT.c">
+      <Filter>Source Files\Lib\UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\NeQuickG_JRC_exception.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_CCIR.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir11.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir12.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir13.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir14.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir15.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir16.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir17.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir18.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir19.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir20.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir21.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\CCIR\NeQuickG_JRC_ccir22.c">
+      <Filter>Source Files\Lib\CCIR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\NeQuickG_JRC_input_data_std_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\NeQuickG_JRC_input_data_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\public\NeQuickG_JRC_UT.h">
+      <Filter>Header Files\Lib\UT\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_API_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_Az_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_iono_E_layer_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_iono_F1_layer_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_iono_F2_layer_fourier_coefficients_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_iono_F2_layer_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_iono_layer_amplitudes_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_iono_layer_thickness_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_MODIP_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_ray_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\UT\private\NeQuickG_JRC_solar_test.h">
+      <Filter>Header Files\Lib\UT\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\ITU_R_P_371_8.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_context.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_coordinates.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_electron_density.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_Gauss_Kronrod_integration.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_geometry.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_input_data.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_interpolate.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_iono_E_layer.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_iono_F1_layer.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_iono_F2_layer.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_iono_F2_layer_fourier_coefficients.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_iono_profile.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_iono_profile_types.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_macros.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_math_utils.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_MODIP.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_MODIP_grid.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_ray.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_ray_slant.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_ray_vertical.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_solar.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_solar_activity.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_TEC_integration.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_time.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\public\NeQuickG_JRC.h">
+      <Filter>Header Files\Lib\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_error.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\NeQuickG_JRC_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\private\NeQuickG_JRC_CCIR.h">
+      <Filter>Header Files\Lib\private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
